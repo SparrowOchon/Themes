@@ -101,7 +101,9 @@ See the full collection [here](https://github.com/hundredrabbits/Themes/tree/mas
 
 Themes can be generated from your wallpaper’s colors with [pywal](https://github.com/dylanaraps/pywal).
 
-Add [pywal.svg](themes/extras/pywal.svg) to `~/.config/wal/templates` and run `wal`. The generated theme will be located in `~/.cache/wal/`.
+- Add [pywal.svg](themes/extras/pywal.svg) to `~/.config/wal/templates`. This will set the base layer
+- Run `wal -i <IMAGE NAME> -s`. The generated theme will be located in `~/.cache/wal/`.
+- Test the Theme by dragging and Dropping it into [Benchmark](https://hundredrabbits.github.io/Themes/)
 
 ## Supported Applications
 
